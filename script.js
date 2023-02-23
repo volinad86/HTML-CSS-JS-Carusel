@@ -8,3 +8,10 @@ document.querySelector('.slider-next').addEventListener('click', function(){
     }
     sliderLine.style.left = -offset + 'px';
 });
+document.querySelector('.slider-prev').addEventListener('click', function(){
+    offset = offset - 812; //offset += 812;
+    if (offset < 0) {
+        offset = 6496;
+    }
+    sliderLine.style.left = -offset + 'px';
+});
