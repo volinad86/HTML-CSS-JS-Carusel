@@ -52,3 +52,30 @@ button:active{
     left: 0;
     transition: all ease 1s;
 }
+
+@media all and (max-width: 1280px){
+    .slider{
+        display: flex;
+        width: 100vh;
+        
+    }
+    img{
+    display: flex;
+    width: 812px;
+    }
+}
+
+@media all and (max-width: 1024px){
+    .slider{
+        display: flex;
+        width: 135vh;
+    }
+}
+
+
+@media all and (max-width: 912px){
+    .slider{
+        display: flex;
+    width: 60vh; 
+    }
+}
